@@ -1,0 +1,20 @@
+body {
+    width: 40em;
+}
+
+blockquote {
+    font-style: italic;
+    background-color: yellow;
+    display: inline-block;
+    margin: 0;
+}
+
+blockquote p {
+    margin: 0;
+    padding: 0.5em;
+}
+
+li.task-list-item {
+    list-style-type: none;
+    margin-left: -1.5em;
+}

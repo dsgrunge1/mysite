@@ -1,0 +1,26 @@
+{
+  "name": "phenomictest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "phenomic start",
+    "build": "phenomic build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@phenomic/cli": "^1.0.0-beta.0",
+    "@phenomic/core": "^1.0.0-beta.0",
+    "@phenomic/preset-react-app": "^1.0.0-beta.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-helmet": "^5.2.0",
+    "react-router": "^3.2.1"
+  },
+  "phenomic": {
+    "presets": [
+      "@phenomic/preset-react-app"
+    ]
+  }
+}
