@@ -1,11 +1,14 @@
 {
-  "name": "phenomictest",
+  "name": "mysite",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "repository": "git@github.com:serbanghita/mysite.git",
+  "private": true,
   "scripts": {
     "start": "phenomic start",
-    "build": "phenomic build"
+    "build": "phenomic build",
+    "deploy": "phenomic deploy"
   },
   "author": "",
   "license": "ISC",
